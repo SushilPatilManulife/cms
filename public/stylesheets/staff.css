@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  width: 980px;
+  width: 100%;
   height: 40px;
   margin: 0 0 10px 0;
   padding: 0;
@@ -47,16 +47,19 @@ navigation ul li {
 }
 
 #content {
-  width: 920px;
+  width: 95%;
   min-height: 500px;
   padding: 0 30px;
 }
 
 footer {
-  width: 940px;
-  height: 20px;
+  position: fixed;
+
+  bottom: 0;
+  width: 100%;
+  height: 40px;
   margin: 0 0 10px 0;
-  padding: 10px 20px;
+  padding: 0;
   background: #0055DD;
   color: white;
 }
